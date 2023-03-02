@@ -31,8 +31,6 @@ a{
             flex-flow: column nowrap;
     
         }
-       
-        
             .Menu{
                 background: rgba(0, 0, 0, .3);
                 display: flex;
@@ -77,12 +75,12 @@ a{
                 
             }
                 h1{
-                    font-family:initial;
-                    color: #8a05f7;
-                    font-size: 21px;
-                    font-weight: 300px;
+                    /* font-family:initial; */
+                    color: #fcfafa;
+                    font-size: 25px;
+                    font-weight: 200px;
                     text-align: center;
-                    line-height: 1.6;
+                    line-height: 1.4;
                 }
         .seccion{
         background: #070707;
@@ -107,6 +105,8 @@ a{
                 }
                 .articulo img{
                     width: 100%;
+                    height: 360px;
+                    overflow: hidden;
                 }
                 .articulo a{
                     color: #fff;
@@ -145,13 +145,19 @@ a{
                 }
             .aside{
                 /* background: #706c6c; */
+                display: flex;
+                flex-direction: row;
                 flex: 1 1 auto;
                 margin: 10px 5px 10px 0;
             }
             .aside img{
-                width: 100%;
+                width: 50%;
+                
             }
             h4{
+                display:flex;
+                flex-direction: flex-end;
+                align-items: stretch;
                 background: rgba(0, 0, 0, .4);
                 color: #fff;
                 padding: 10px;
@@ -170,15 +176,25 @@ a{
             .pie{
                 /* background: #635985; */
                 display: flex;
-                text-align: center;
-                margin-top: 10px;
+                justify-content: center;
+                flex: 1 1 100%;
+                margin: 20px 10px 0 0px;
             }
             .pie a {
-                color: #fff;
+                
+                background: rgba(132, 45, 139, 0.3);
+                display: flex;
+                flex-flow: row nowrap;
+                border-bottom: 1px solid rgba(177, 170, 170, 0.5);
                 font-size: 11px;
                 text-transform: uppercase;
-                padding: 0 10px;
-                letter-spacing: 2px;
+                padding: 0 5px;
+                letter-spacing: 1px;
+            }
+            .pie img{
+                width: 30%;
+                display: flex;
+                justify-content: center;
             }
 
 @media all and (max-width: 1002px){
