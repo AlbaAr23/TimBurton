@@ -167,7 +167,7 @@ a{
         .footer{
         background: #000;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         
         }
             .pie{
@@ -178,7 +178,9 @@ a{
                 margin: 20px 10px 0 0px;
             }
             .pie a {
-                
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
                 background: rgba(132, 45, 139, 0.3);
                 display: flex;
                 flex-flow: row nowrap;
@@ -189,9 +191,7 @@ a{
                 letter-spacing: 1px;
             }
             .pie img{
-                width: 30%;
-                display: flex;
-                justify-content: center;
+                width: 50%;
             }
 
 @media all and (max-width: 1002px){
